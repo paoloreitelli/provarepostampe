@@ -1,0 +1,71 @@
+{
+  "id": "nuovo-modulo",
+  "schemaVersion": "2",
+  "meta": {
+    "id": "nuovo-modulo",
+    "name": "NUOVO MODULO",
+    "defaultDriver": "chromium",
+    "pageSize": "A4",
+    "lang": "",
+    "accessibility": {
+      "pdfUA": true,
+      "wcagLevel": "AA"
+    }
+  },
+  "dataSchema": {},
+  "root": [
+    {
+      "type": "page",
+      "id": "76e0cca3006b",
+      "pageSize": "A4",
+      "orientation": "portrait",
+      "margins": {
+        "top": "11mm",
+        "right": "10mm",
+        "bottom": "10mm",
+        "left": "11mm"
+      },
+      "pageBorders": {
+        "top": {
+          "style": "solid",
+          "width": "2pt"
+        },
+        "bottom": {
+          "style": "solid",
+          "width": "2pt"
+        }
+      },
+      "marginBoxes": [],
+      "header": {
+        "enabled": false,
+        "height": "15mm",
+        "position": "center"
+      },
+      "footer": {
+        "enabled": false,
+        "height": "15mm",
+        "position": "center"
+      },
+      "children": [
+        {
+          "type": "section",
+          "id": "d10f8c2a6bc0",
+          "columns": 1,
+          "columnGap": "0",
+          "pageBreakBefore": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "id": "bae618561ec7",
+              "typography": {},
+              "content": {
+                "type": "doc",
+                "content": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

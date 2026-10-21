@@ -1,0 +1,26 @@
+.dm-counter-page::after { content: counter(page); }
+.dm-counter-pages::after { content: counter(pages); }
+.dm-counter-local-page::after { content: var(--dm-local-page, counter(page)); }
+.dm-counter-local-pages::after { content: var(--dm-local-pages, counter(pages)); }
+
+.dm-form-cell p { margin: 0; }
+.dm-paragraph p { margin: 0; }
+
+@page {
+  size: A4 portrait;
+}
+
+@page page-76e0cca3006b {
+  size: A4 portrait;
+  margin: 11mm 10mm 10mm 11mm;
+  border-top: 2pt solid #000000;
+  border-bottom: 2pt solid #000000;
+}
+
+.dm-page-runner-76e0cca3006b {
+  page: page-76e0cca3006b;
+}
+
+.dm-page-76e0cca3006b {
+  page: page-76e0cca3006b;
+}

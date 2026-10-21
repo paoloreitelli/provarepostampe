@@ -1,0 +1,11 @@
+{
+  "id": "nuovo-modulo",
+  "name": "NUOVO MODULO",
+  "defaultDriver": "chromium",
+  "pageSize": "A4",
+  "lang": "",
+  "accessibility": {
+    "pdfUA": true,
+    "wcagLevel": "AA"
+  }
+}

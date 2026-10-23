@@ -1,0 +1,75 @@
+{
+  "id": "altro-modulo-aggiuntivo",
+  "schemaVersion": "2",
+  "meta": {
+    "id": "altro-modulo-aggiuntivo",
+    "name": "Modulo aggiuntivo",
+    "defaultDriver": "chromium",
+    "pageSize": "A4",
+    "lang": "",
+    "accessibility": {
+      "pdfUA": true,
+      "wcagLevel": "AA"
+    }
+  },
+  "dataSchema": {},
+  "root": [
+    {
+      "type": "page",
+      "id": "9861eb0ff68e",
+      "pageSize": "A4",
+      "orientation": "portrait",
+      "margins": {
+        "top": "10mm",
+        "right": "10mm",
+        "bottom": "10mm",
+        "left": "10mm"
+      },
+      "marginBoxes": [],
+      "header": {
+        "enabled": false,
+        "height": "15mm",
+        "position": "center"
+      },
+      "footer": {
+        "enabled": false,
+        "height": "15mm",
+        "position": "center"
+      },
+      "children": [
+        {
+          "type": "section",
+          "id": "d7ef919ad4c4",
+          "columns": 1,
+          "columnGap": "0",
+          "pageBreakBefore": false,
+          "children": [
+            {
+              "type": "paragraph",
+              "id": "cd95c8923f7f",
+              "typography": {},
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "marginTop": null,
+                      "marginBottom": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "TESTO DI PROVA PER MODULO AGGIUNTIVO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

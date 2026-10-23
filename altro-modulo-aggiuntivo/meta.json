@@ -1,0 +1,11 @@
+{
+  "id": "altro-modulo-aggiuntivo",
+  "name": "Modulo aggiuntivo",
+  "defaultDriver": "chromium",
+  "pageSize": "A4",
+  "lang": "",
+  "accessibility": {
+    "pdfUA": true,
+    "wcagLevel": "AA"
+  }
+}

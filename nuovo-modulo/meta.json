@@ -3,8 +3,10 @@
   "name": "NUOVO MODULO",
   "defaultDriver": "chromium",
   "pageSize": "A4",
-  "lang": "",
+  "lang": "it-IT",
   "accessibility": {
+    "title": "CONTRATTO FINANZIAMENTO",
+    "notes": "Template contratto finanziamento ",
     "pdfUA": true,
     "wcagLevel": "AA"
   }

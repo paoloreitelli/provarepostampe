@@ -6,8 +6,10 @@
     "name": "NUOVO MODULO",
     "defaultDriver": "chromium",
     "pageSize": "A4",
-    "lang": "",
+    "lang": "it-IT",
     "accessibility": {
+      "title": "CONTRATTO FINANZIAMENTO",
+      "notes": "Template contratto finanziamento ",
       "pdfUA": true,
       "wcagLevel": "AA"
     }
@@ -20,16 +22,12 @@
       "pageSize": "A4",
       "orientation": "portrait",
       "margins": {
-        "top": "11mm",
-        "right": "10mm",
+        "top": "24mm",
+        "right": "12mm",
         "bottom": "10mm",
-        "left": "11mm"
+        "left": "12mm"
       },
       "pageBorders": {
-        "top": {
-          "style": "solid",
-          "width": "2pt"
-        },
         "bottom": {
           "style": "solid",
           "width": "2pt"
@@ -55,13 +53,542 @@
           "pageBreakBefore": false,
           "children": [
             {
-              "type": "paragraph",
-              "id": "bae618561ec7",
-              "typography": {},
-              "content": {
-                "type": "doc",
-                "content": []
+              "type": "heading",
+              "id": "ab31af55f672",
+              "level": 1,
+              "text": "SCHEMA DI CONTRATTO DI FINANZIAMENTO",
+              "typography": {
+                "fontSize": "10pt",
+                "textAlign": "center"
               }
+            },
+            {
+              "type": "heading",
+              "id": "563d4144b21d",
+              "level": 2,
+              "text": "CONTRATTO DI FINANZIAMENTO AGEVOLATO A VALERE SULLE RISORSE DEL “FONDO KYOTO” DI CUI ALL’ARTICOLO 1, COMMI 1110 E SEGUENTI, DELLA LEGGE N. 296/2006 E RELATIVA NORMATIVA DI ATTUAZIONE",
+              "typography": {
+                "fontSize": "10pt",
+                "textAlign": "center"
+              }
+            },
+            {
+              "type": "form",
+              "id": "a48cd9627df1",
+              "name": "Form progetto",
+              "children": [
+                {
+                  "type": "form-row",
+                  "id": "d21620d735f1",
+                  "children": [
+                    {
+                      "type": "form-cell",
+                      "id": "b92700fb3e93",
+                      "content": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "marginTop": null,
+                              "marginBottom": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Provvedimento di Ammissione alle agevolazioni di cui al Fondo Kyoto n",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "typography": {
+                        "fontSize": "11pt"
+                      },
+                      "flexWeight": 2.5
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "82606d198aa1",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "border": {
+                        "bottom": {
+                          "style": "solid",
+                          "width": "1pt"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "form-row",
+                  "id": "8e53c9a85b7a",
+                  "children": [
+                    {
+                      "type": "form-cell",
+                      "id": "aa7b28fccec2",
+                      "content": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "marginTop": null,
+                              "marginBottom": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "emesso da",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "c0714ca154a2",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "flexWeight": 2,
+                      "border": {
+                        "bottom": {
+                          "style": "solid",
+                          "width": "1pt"
+                        }
+                      }
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "97a30659d598",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "flexWeight": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "form-row",
+                  "id": "84a0d5634418",
+                  "children": [
+                    {
+                      "type": "form-cell",
+                      "id": "3b71b64b8f10",
+                      "content": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "marginTop": null,
+                              "marginBottom": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Identificazione Progetto",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "flexWeight": 2
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "4943f5463887",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "flexWeight": 2,
+                      "border": {
+                        "bottom": {
+                          "style": "solid",
+                          "width": "1pt"
+                        }
+                      }
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "5f24b26d7e7b",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "flexWeight": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "form-row",
+                  "id": "38825d1f16a8",
+                  "children": [
+                    {
+                      "type": "form-cell",
+                      "id": "32cc20bc33a5",
+                      "content": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "marginTop": null,
+                              "marginBottom": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Domanda di ammissione n",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "flexWeight": 2.5
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "094786db43b3",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "flexWeight": 2,
+                      "border": {
+                        "bottom": {
+                          "style": "solid",
+                          "width": "1pt"
+                        }
+                      }
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "9a31d4a2fda0",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "flexWeight": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "form-row",
+                  "id": "b0a56a5060f9",
+                  "children": [
+                    {
+                      "type": "form-cell",
+                      "id": "67274984674e",
+                      "content": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "marginTop": null,
+                              "marginBottom": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Contratto di finanziamento n.",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "flexWeight": 2.5
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "c493587674b9",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "flexWeight": 2,
+                      "border": {
+                        "bottom": {
+                          "style": "solid",
+                          "width": "1pt"
+                        }
+                      }
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "7083febeecaa",
+                      "content": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "marginTop": null,
+                              "marginBottom": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "per Euro",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "flexWeight": 1
+                    },
+                    {
+                      "type": "form-cell",
+                      "id": "d37a8e155d41",
+                      "content": {
+                        "type": "doc",
+                        "content": []
+                      },
+                      "flexWeight": 2,
+                      "border": {
+                        "bottom": {
+                          "style": "solid",
+                          "width": "1pt"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "margin": {
+                "top": "15mm",
+                "right": "0",
+                "bottom": "0",
+                "left": "0"
+              },
+              "rowGap": "1mm"
+            },
+            {
+              "type": "heading",
+              "id": "4565e001ee66",
+              "level": 1,
+              "text": "TRA",
+              "typography": {
+                "fontSize": "11pt",
+                "textAlign": "center"
+              },
+              "margin": {
+                "top": "10mm",
+                "right": "0",
+                "bottom": "0",
+                "left": "0"
+              }
+            },
+            {
+              "type": "article",
+              "id": "4272be86b4a4",
+              "padding": {
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "15mm"
+              },
+              "margin": {
+                "top": "10mm",
+                "right": "0",
+                "bottom": "0",
+                "left": "0"
+              },
+              "children": [
+                {
+                  "type": "paragraph",
+                  "id": "4bd6644f9c00",
+                  "typography": {
+                    "fontSize": "10pt",
+                    "textAlign": "justify",
+                    "textAlignLast": "left"
+                  },
+                  "content": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "marginTop": null,
+                          "marginBottom": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "1. Il "
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ministero dell’ambiente e della tutela del territorio e del mare",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "text": ", con sede in Roma, Via Cristoforo Colombo n. 44, C.F. 97230040582 (il “"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Ministero Ambiente",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "text": "” o la “"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Parte Finanziatrice",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "text": "”), il quale sottoscrive il presente Contratto per mezzo del proprio mandatario con rappresentanza: "
+                          }
+                        ]
+                      },
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "marginTop": null,
+                          "marginBottom": null
+                        }
+                      },
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "marginTop": null,
+                          "marginBottom": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Cassa depositi e prestiti società per azioni, con sede in Roma, Via Goito, n. 4, capitale sociale € 3.500.000.000,00 (euro tremiliardicinquecentomilioni/00), interamente versato, iscritta presso la CCIAA di Roma al REA 1053767 - C.F. ed iscrizione nel Registro delle Imprese di Roma n. 80199230584, partita IVA n. 07756511007, rappresentata come specificato in calce al Contratto (di seguito “CDP”)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "paragraph",
+                  "id": "afd840ea0832",
+                  "typography": {
+                    "fontSize": "11pt",
+                    "textAlign": "center"
+                  },
+                  "content": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "marginTop": null,
+                          "marginBottom": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "E",
+                            "marks": [
+                              {
+                                "type": "bold"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "margin": {
+                    "top": "10mm",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0"
+                  }
+                },
+                {
+                  "type": "paragraph",
+                  "id": "084e31d8ec8b",
+                  "typography": {
+                    "fontSize": "10pt"
+                  },
+                  "content": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "marginTop": null,
+                          "marginBottom": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "2. _________________________________________________ (di seguito ’“Parte Finanziata”), con sede in ___________________________________, iscritta al registro delle imprese di ______________ al n. ____________, partita IVA n. ____________, rappresentata da __________________ debitamente autorizzato a sottoscrivere il presente Contratto (come di seguito definito) in forza di ______________del____________"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "margin": {
+                    "top": "10mmx",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0"
+                  }
+                }
+              ]
             }
           ]
         }
